@@ -1,0 +1,50 @@
+/* Global styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+}
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+}
+nav ul {
+	display: flex;
+}
+nav li {
+	margin: 0 10px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+h2 {
+	margin: 30px 0;
+}
+/* Hero section */
+.hero {
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.hero h2 {
+	font-size: 3rem;
+	margin-bottom: 20px
